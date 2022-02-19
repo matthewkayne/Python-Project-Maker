@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo Project Name:
-
-read name
+read -p "Project Name: " name
 
 mkdir $name
 
