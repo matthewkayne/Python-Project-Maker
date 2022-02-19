@@ -6,12 +6,13 @@ It will create a python project with the following file structure:
 
 ```text
 project
+│   .gitignore
+│   LICENSE
+│   pyproject.toml
 │   README.md
-│   LICENCE
-│   requirements.txt
-|
+│   setup.cfg
+│
 └───src
+    │   __init.py
     │   main.py
-    │   __init__.py
-
 ```
