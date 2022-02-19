@@ -2,7 +2,7 @@
 
 Run `bash pyproject.sh` in the desired directory to create a new project.
 
-This is a bash script that creates a python project with the following file structure:
+It will create a python project with the following file structure:
 
 ```text
 project
