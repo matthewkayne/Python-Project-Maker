@@ -89,12 +89,5 @@ mkdir src
 
 cd src
 
-cat > main.py << EOF
-def main():
-
-
-
-if __name__ == "__main__":
-    main()
-EOF
+touch main.py
 touch __init__.py
