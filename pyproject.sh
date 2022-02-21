@@ -46,7 +46,6 @@ SOFTWARE.
 EOF
 else
     touch LICENSE
-
 fi    
 
 cat > setup.cfg << EOF
@@ -88,5 +87,12 @@ mkdir src
 
 cd src
 
-touch main.py
+cat > main.py << EOF
+def main():
+
+
+
+if __name__ == "__main__":
+    main()
+EOF
 touch __init__.py
