@@ -8,8 +8,10 @@ It will create a python project with the following file structure:
 project
 │   .gitignore
 │   LICENSE
+│   MANIFEST.in
 │   pyproject.toml
 │   README.md
+│   requirements.txt
 │   setup.cfg
 │
 └───src
