@@ -61,6 +61,7 @@ url = $url
 
 [options]
 packages = find:
+include_package_data = True
 EOF
 cat > pyproject.toml << EOF
 [build-system]
