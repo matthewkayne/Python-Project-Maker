@@ -82,6 +82,8 @@ __pycache__/
 # Other Files
 .env
 EOF
+touch requirements.txt
+touch MANIFEST.in
 
 mkdir src
 
