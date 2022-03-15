@@ -71,6 +71,10 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 EOF
+cat > setup.py << EOF
+from setuptools import setup
+setup()
+EOF
 cat > README.md << EOF 
 # $name
 EOF
