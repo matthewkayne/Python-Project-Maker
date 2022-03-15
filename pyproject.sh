@@ -78,10 +78,46 @@ cat > .gitignore << EOF
 # System files
 .DS_Store
 Thumbs.db
-# Python files
+
+# Visual Studio Code
+.vscode
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
-# Other Files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Custom
+test.py
 EOF
 touch requirements.txt
 touch MANIFEST.in
