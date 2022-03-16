@@ -63,6 +63,10 @@ url = $url
 packages = find:
 include_package_data = True
 EOF
+cat > setup.py << EOF
+from setuptools import setup
+setup()
+EOF
 cat > pyproject.toml << EOF
 [build-system]
 requires = [
