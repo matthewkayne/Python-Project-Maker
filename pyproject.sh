@@ -130,7 +130,7 @@ EOF
 touch requirements.txt
 touch MANIFEST.in
 
-mkdir src
+mkdir $name
 
 cd src
 

@@ -15,7 +15,7 @@ project
 │   setup.cfg
 │   setup.py
 │
-└───src
+└───project
     │   __init.py
     │   main.py
 ```
