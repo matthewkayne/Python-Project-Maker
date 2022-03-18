@@ -13,6 +13,7 @@ project
 │   README.md
 │   requirements.txt
 │   setup.cfg
+│   setup.py
 │
 └───src
     │   __init.py
