@@ -9,6 +9,7 @@ read -p "URL: : " url
 read -p "Pre written License (y/n): " license
 
 year=$(date +"%Y")
+name_py="${name}.py"
 
 mkdir $name
 
@@ -132,7 +133,7 @@ touch MANIFEST.in
 
 mkdir $name
 
-cd src
+cd $name
 
-touch main.py
+touch $name_py
 touch __init__.py
