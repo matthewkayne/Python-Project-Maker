@@ -17,5 +17,5 @@ project
 │
 └───project
     │   __init.py
-    │   main.py
+    │   project.py
 ```
