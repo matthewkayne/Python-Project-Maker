@@ -1,4 +1,4 @@
-# Python Project Maker
+<h1 align="center">Python Project Maker</h1>
 
 Run `bash pyproject.sh` in the desired directory to create a new project.
 
