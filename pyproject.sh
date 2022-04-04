@@ -14,7 +14,7 @@ name_py="${name}.py"
 
 mkdir "$name"
 
-cd "$name"
+cd "$name" || exit
 
 if [ -z "$version" ];
   then
@@ -134,19 +134,19 @@ touch MANIFEST.in
 
 mkdir "$name"
 
-cd "$name"
+cd "$name" || exit
 
 touch "$name_py"
 touch __init__.py
 
 if [ "$github_actions" == "y" ]; 
     then
-    cd ..
+    cd .. || exit
 
     mkdir .github
-    cd .github
+    cd .github || exit
     mkdir workflows
-    cd workflows
+    cd workflows || exit
 
     cat > python-app.yml << EOF
     # This workflow will install Python dependencies, run tests and lint with a single version of Python
