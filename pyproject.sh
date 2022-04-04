@@ -12,11 +12,11 @@ read -r -p "Pre written License (y/n): " license
 year=$(date +"%Y")
 name_py="${name}.py"
 
-mkdir $name
+mkdir "$name"
 
-cd $name
+cd "$name"
 
-if [ -z $version ];
+if [ -z "$version" ];
   then
     version=1.0.0
 fi
@@ -132,11 +132,11 @@ EOF
 touch requirements.txt
 touch MANIFEST.in
 
-mkdir $name
+mkdir "$name"
 
-cd $name
+cd "$name"
 
-touch $name_py
+touch "$name_py"
 touch __init__.py
 
 if [ "$github_actions" == "y" ]; 
