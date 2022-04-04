@@ -1,13 +1,13 @@
 #!/bin/bash
 
-read -p "Project Name: " name
-read -p "Version: " version
-read -p "Description: " description
-read -p "Author: " author
-read -p "Author Email: " author_email
-read -p "URL: : " url
-read -p "GitGub Actions (y/n): " github_actions
-read -p "Pre written License (y/n): " license
+read -r -p "Project Name: " name
+read -r -p "Version: " version
+read -r -p "Description: " description
+read -r -p "Author: " author
+read -r -p "Author Email: " author_email
+read -r -p "URL: : " url
+read -r -p "GitGub Actions (y/n): " github_actions
+read -r -p "Pre written License (y/n): " license
 
 year=$(date +"%Y")
 name_py="${name}.py"
