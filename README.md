@@ -1,4 +1,6 @@
-# Python Project Maker
+<h1 align="center">Python Project Maker</h1>
+
+<p align="center"><a href="https://www.codefactor.io/repository/github/matthewkayne/python-project-maker"><img src="https://www.codefactor.io/repository/github/matthewkayne/python-project-maker/badge" alt="CodeFactor" /></a></p>
 
 Run `bash pyproject.sh` in the desired directory to create a new project.
 
